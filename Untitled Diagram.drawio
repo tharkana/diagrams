@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2020-10-17T04:40:58.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="hxSpqh0IyDDF36Fb6dVw" version="13.8.0" type="github"><diagram id="QHU7mkLN_vRJtnj9_PrC" name="Page-1">7ZbRbpswFIafBmm7qAQYkvQyA5ZtaqtqabWqN5GLT8EaYGTMIHv6mWAHCImWTK2Si91E9neOjfn/4xMM5KX1guM8vmUEEsM2SW0g37Dta3MmfxuwboFroRZEnJIWWR1Y0t+goKloSQkUg0TBWCJoPoQhyzIIxYBhzlk1THtlyfCpOY5gBJYhTsb0ByUibunMNTv+BWgU6ydbpoqkWCcrUMSYsKqHUGAgjzMm2lFae5A02mld2nWfD0S3B+OQiWMW5Gjx7NwVT98cN1yQ8Ak9i59XapdfOCnVC3/NBPBXHIJhTxK58acXLkdRM/K+B/OHMZbUH9PHe3/+EIy5H9wEN/sCSiWx1tJzVmYEmtObMlzFVMAybw6G/ErWmmSxSBM5s7ar+2roVwMuoO4hpc4CWAqCr2WKjmpTValO1bTqfLe0mXHfc205VrUWbbfu7JAD5cgJ7qCRO/eckVKW+R71dolKXd3Nb/eq/Xfytn6f2V2Ehu5OjnXXeS93nUPuruYSQy0gI3IQZIIKKnvgEY7JLlgIvikQ05juSYBms/Uqw2lzv3Ha6Jy9FPkl3D9kugOH7NnZLXIPWuT9q0VlTrCADx/PLvduu7sAuSfHyQ0nyH2oLZ1dfte5tH40Hal/Sl0HbWf5/2+ziTrXO5fLeUd75bT7jNzEet/iKPgD</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-18T20:14:37.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="VIw-gD7kPuG_dpyXRFyf" version="13.8.0" type="github">
+  <diagram id="QHU7mkLN_vRJtnj9_PrC" name="Page-1">
+    <mxGraphModel dx="908" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v_V997Go5f5zDk-q-WLU-1" value="Product&lt;br&gt;&lt;br&gt;CREAT&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;if (product == C)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; validation =&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;else&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; create&lt;/span&gt;&lt;/div&gt;&lt;br&gt;READ&lt;br&gt;UPDATE&lt;br&gt;DELELTE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="v_V997Go5f5zDk-q-WLU-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="1540" width="510" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="p3GZ4NsXJ45cGdcX3Ztk-1" value="Interface&lt;br&gt;CREAT&lt;br&gt;READ&lt;br&gt;UPDATE&lt;br&gt;DELELTE&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="v_V997Go5f5zDk-q-WLU-3" vertex="1">
+          <mxGeometry y="10" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p3GZ4NsXJ45cGdcX3Ztk-3" value="Product&lt;br&gt;&lt;br&gt;Product_NAME&lt;br&gt;&lt;br&gt;&lt;br&gt;CREAT&lt;br&gt;READ&lt;br&gt;UPDATE&lt;br&gt;DELELTE" style="rounded=0;whiteSpace=wrap;html=1;" parent="v_V997Go5f5zDk-q-WLU-3" vertex="1">
+          <mxGeometry x="180" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p3GZ4NsXJ45cGdcX3Ztk-4" value="Product_A extend Entities&lt;br&gt;&lt;br&gt;construct {&lt;br&gt;entity_name&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="v_V997Go5f5zDk-q-WLU-3" vertex="1">
+          <mxGeometry x="155" y="220" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p3GZ4NsXJ45cGdcX3Ztk-5" value="Product_C extend Entities&lt;br&gt;&lt;br&gt;update()" style="rounded=0;whiteSpace=wrap;html=1;" parent="v_V997Go5f5zDk-q-WLU-3" vertex="1">
+          <mxGeometry y="220" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p3GZ4NsXJ45cGdcX3Ztk-6" value="Product_C extend entities&lt;br&gt;&lt;br&gt;UPDATE&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="v_V997Go5f5zDk-q-WLU-3" vertex="1">
+          <mxGeometry x="390" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p3GZ4NsXJ45cGdcX3Ztk-7" value="Entities&lt;br&gt;&lt;br&gt;Entity_NAME&lt;br&gt;&lt;br&gt;&lt;br&gt;CREAT&lt;br&gt;READ&lt;br&gt;UPDATE&lt;br&gt;DELELTE" style="rounded=0;whiteSpace=wrap;html=1;" parent="v_V997Go5f5zDk-q-WLU-3" vertex="1">
+          <mxGeometry x="340" y="180" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="v_V997Go5f5zDk-q-WLU-4" value="" style="shape=link;html=1;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="10" y="250" as="sourcePoint" />
+            <mxPoint x="847.5999755859375" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_V997Go5f5zDk-q-WLU-5" value="Product&lt;br&gt;&lt;br&gt;CREAT(data, validation)&lt;br&gt;READ&lt;br&gt;UPDATE&lt;br&gt;DELELTE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="v_V997Go5f5zDk-q-WLU-6" value="Validation&lt;br&gt;&lt;br&gt;validate() : boolean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="300" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="v_V997Go5f5zDk-q-WLU-7" value="" style="shape=link;html=1;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="6" y="530" as="sourcePoint" />
+            <mxPoint x="843.5999755859375" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_V997Go5f5zDk-q-WLU-8" value="Main&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;if(product == c )&lt;br&gt;&amp;nbsp; &amp;nbsp;product.creaate( new Validation() )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="230" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
